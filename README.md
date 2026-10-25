@@ -8,8 +8,8 @@ A minimalist Chrome extension (Manifest V3) that detects HLS (`.m3u8`) streams a
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 <p align="center">
-  <img src="docs/screenshots/screenshot1.png" alt="StreamGrab download page with picture frame" width="48%">
-  <img src="docs/screenshots/screenshot2.png" alt="StreamGrab popup in dark mode" width="48%">
+  <img src="docs/screenshots/Screenshot1.png" alt="StreamGrab download page with picture frame" width="48%">
+  <img src="docs/screenshots/Screenshot2.png" alt="StreamGrab popup in dark mode" width="48%">
 </p>
 
 > Built as a personal tool and a learning project. See [Responsible use](#responsible-use) before using it.
