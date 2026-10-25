@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="common.js"></script><link rel="stylesheet" href="ui.css"><title>StreamGrab terms</title></head>
+<body>
+<div class="shell">
+  <header class="topbar"><a class="brand" href="settings.html"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg></span>StreamGrab</a>
+    <div class="tools"><button class="icon-btn" data-theme-toggle aria-label="Switch light or dark theme"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button></div></header>
+  <main class="prose">
+    <h1>Terms of use and privacy</h1>
+    <p class="muted">Last updated October 25, 2026</p>
+    <p>StreamGrab is a personal browser tool made by John James M. Dayap. By using it you agree to these terms. If you do not agree, uninstall it.</p>
+
+    <h2>1. What StreamGrab does</h2>
+    <p>StreamGrab notices media files and streams that your own browser loads, and lets you save a copy to your own device. All processing happens inside your browser. There is no StreamGrab server.</p>
+
+    <h2>2. You are responsible for what you save</h2>
+    <p>You may only save content that you own, that is in the public domain, that is licensed in a way that allows copying, or that you otherwise have permission to save. You are solely responsible for following copyright law, the terms of the websites you visit, and the laws where you live.</p>
+    <ul>
+      <li>Do not use StreamGrab to pirate, resell, or redistribute content.</li>
+      <li>Do not use StreamGrab to break paywalls, access controls, or licence terms.</li>
+    </ul>
+
+    <h2>3. No circumvention</h2>
+    <p>StreamGrab does not decrypt, and is not designed to bypass, DRM, encryption, or other technical protection measures. Encrypted streams are rejected. You agree not to modify or use it for that purpose.</p>
+
+    <h2>4. Privacy</h2>
+    <ul>
+      <li>StreamGrab collects no personal data, has no accounts, and has no analytics or tracking.</li>
+      <li>Your theme, defaults, accepted-terms date, custom loading animation, and picture frame image are stored locally in your browser and never sent anywhere.</li>
+      <li>It asks for access to all websites only so it can see media requests and fetch media on your behalf. Detected links are kept in temporary browser memory and cleared when the tab closes or navigates.</li>
+      <li>When you download, your browser contacts the media host directly, as it would when you watch the video. That host may see your IP address and request details.</li>
+    </ul>
+
+    <h2>5. No warranty</h2>
+    <p>StreamGrab is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without warranties of any kind, express or implied, including fitness for a particular purpose, accuracy, reliability, or non-infringement. It may fail on some sites or formats and may stop working at any time.</p>
+
+    <h2>6. Limitation of liability</h2>
+    <p>To the maximum extent permitted by law, the Developer is not liable for any claim, loss, or damage (including lost data, device problems, account suspensions, or legal claims by third parties) arising from your use of StreamGrab or the content you save with it.</p>
+
+    <h2>7. Your agreement to cover claims</h2>
+    <p>To the extent permitted by law, you agree to hold the Developer harmless from claims, damages, and costs that arise from your use of StreamGrab or from content you download, including any breach of these terms or of someone else&rsquo;s rights.</p>
+
+    <h2>8. Third-party software</h2>
+    <p>StreamGrab includes <strong>mux.js</strong> (Apache License 2.0) for converting video segments to MP4. It stays under its own licence.</p>
+
+    <h2>9. Changes and ending use</h2>
+    <p>These terms may change. Continued use after a change means you accept it. You can stop at any time by uninstalling the extension.</p>
+
+    <h2>10. Governing law</h2>
+    <p>These terms are governed by the laws of Philippines, without regard to conflict-of-law rules.</p>
+
+    <div class="accept" id="accept">
+      <label><input type="checkbox" id="agree"><span>I have read these terms and agree to them. I will only save content I have the right to save.</span></label>
+      <button class="btn primary" id="ok" disabled>Accept and continue</button>
+    </div>
+    <div class="accept" id="done" hidden>
+      <div id="when"></div>
+      <button class="btn danger" id="revoke">Withdraw acceptance</button>
+    </div>
+  </main>
+</div>
+<script src="terms.js"></script>
+</body></html>

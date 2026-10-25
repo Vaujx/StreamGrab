@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "StreamGrab (private)",
+  "version": "1.1.0",
+  "description": "Private tool: detect HLS (m3u8) and direct media on a page and save it as MP4.",
+  "permissions": [
+    "webRequest",
+    "storage",
+    "unlimitedStorage",
+    "downloads",
+    "declarativeNetRequest",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "options_page": "settings.html"
+}
