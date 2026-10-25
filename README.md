@@ -119,13 +119,28 @@ StreamGrab is intended for saving content you own, that is in the public domain,
 
 John James M. Dayap · https://Github.com/vaujx
 
-##Contact me here!
+## Contact me here!
 
-Instagram  ·  https://www.instagram.com/johnjamesdayap/
-Facebook  ·  https://www.facebook.com/Vampire.that.fears.blooooooood/
-LinkedIn  ·  https://www.linkedin.com/in/john-james-dayap-83b761415/
-Portfolio  ·  JohnjamesMD.vercel.app
-Email  ·  Johnjamesdyp@gmail.com
+<table align="center">
+  <tr>
+    <td align="center" width="120">
+      <a href="https://www.instagram.com/johnjamesdayap/"><img src="docs/icons/instagram.svg" width="32" height="32" alt="Instagram"><br>Instagram</a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://www.facebook.com/Vampire.that.fears.blooooooood/"><img src="docs/icons/facebook.svg" width="32" height="32" alt="Facebook"><br>Facebook</a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://www.linkedin.com/in/john-james-dayap-83b761415/"><img src="docs/icons/linkedin.svg" width="32" height="32" alt="LinkedIn"><br>LinkedIn</a>
+    </td>
+    <td align="center" width="120">
+      <a href="https://JohnjamesMD.vercel.app"><img src="docs/icons/globe.svg" width="32" height="32" alt="Portfolio"><br>Portfolio</a>
+    </td>
+    <td align="center" width="120">
+      <a href="mailto:Johnjamesdyp@gmail.com"><img src="docs/icons/email.svg" width="32" height="32" alt="Email"><br>Email</a>
+    </td>
+  </tr>
+</table>
+
 
 ## License
 
